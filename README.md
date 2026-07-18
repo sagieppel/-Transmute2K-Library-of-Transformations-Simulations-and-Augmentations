@@ -1,15 +1,18 @@
-# MorphImage2k: Large Library of Image Transformations and Augmentations. Based on methods, models and simulation from science, art and image processing.
+---
+license: cc0-1.0
+tags:
+- image-retreival
+- materials-retreival
+size_categories:
+- 1K<n<10K
+---
+#  **Transmute2K**: Library of Image Transformations Simulations and Augmentations,  based  2K methods, models and simulation from science, art and math.
 
+**Transmute2K** is a large-scale library and dataset containing 2,000 image transformation methods based on techniques, simulations and models from various fields of science, math and art that have been adapted for image manipulation and image-processing.
 
-# LOST: Library of Image Simulations, Transformations, and Augmentations, based on methods, models and simulation from science and art.
+In general, the transformations can be applied to standard **RGB images**, as well as to images or maps of other types, such as **PBR materials** and hyperspectral maps.
 
-LOST is a large-scale library and dataset containing approximately 2,000 image transformation methods.
-
-The collection is based on standard image-processing techniques, as well as simulations and models from various fields of science and art that have been adapted for image manipulation.
-
-In general, the transformations can be applied to standard RGB images, as well as to images or maps of other types, such as PBR materials and hyperspectral maps.
-
-Each transformation follows a model or function. This can range from simple operations such as rotation and blurring to more complex physical and scientific models involving diffusion, clustering, topology, optics, physics, and other forms of simulation, with the image used as the working medium on which the transformation operates.
+Each transformation follows a model or function. This can range from simple operations such as rotation and blurring to more complex physical and scientific models involving diffusion, clustering, topology,camera effect, optica, physical and chemical proccess and other forms of simulation, with the image used as the working medium on which the transformation operates on.
 
 The transformations are divided into two groups:
 
@@ -22,32 +25,36 @@ The input can be a standard RGB image or another type of map, such as a PBR mate
 
 The transformations were collected from a wide range of fields. Some use standard image-augmentation or image-modification functions, while others adapt models and simulations from different scientific and artistic domains and apply them to images.
 
-The dataset was created using an agentic AI pipeline based on several large language models, including GLM, Kimi, and GPT with manual inspection and filtering of the results. These models were used to collect, suggest, and in some cases invent transformation methods and models, and to implement them as Python image-processing code.
-
-# Download source
-
-## [HuggingFace]()
-
-## [ZENODO]()
+The dataset was created/collected using an agentic AI pipeline based on several large language models, (GLM, KIMI) with human manual inspection and filtering of the results. 
 
 ## Examples of Image-to-Image Transformations
 
-![Cytokinetic Purse String Ingression — Actomyosin Tension Remodeling](gifs/Cytokinetic_Purse_String_Ingression___Actomyosin_Tension_Remodeling.gif)
-![Animated Underpainting — Pentimento Emergence](gifs/Animated_Underpainting___Pentimento_Emergence.gif)
-![Aquatic Caustic Refraction — Wave Surface Lens Reconfiguration](gifs/Aquatic_Caustic_Refraction___Wave_Surface_Lens_Reconfiguration.gif)
-![Barkhausen Domain Wall Migration — Magnetic Hysteresis Reveal](gifs/Barkhausen_Domain_Wall_Migration___Magnetic_Hysteresis_Reveal.gif)
-![Blister Pack Delamination — Pocket Collapse](gifs/Blister_Pack_Delamination___Pocket_Collapse.gif)
-![Capillary Ink Draw-Up Transition](gifs/Capillary_Ink_Draw_Up_Transition.gif)
-![Botanical Grafting — Scion Budding](gifs/Botanical_Grafting___Scion_Budding.gif)
-![Cytokinetic Purse String Ingression — Actomyosin Tension Remodeling](gifs/Cytokinetic_Purse_String_Ingression___Actomyosin_Tension_Remodeling.gif)
+<table cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td width="25%"><img src="gifs/Cytokinetic_Purse_String_Ingression___Actomyosin_Tension_Remodeling.gif" width="100%"/></td>
+    <td width="25%"><img src="gifs/Animated_Underpainting___Pentimento_Emergence.gif" width="100%"/></td>
+    <td width="25%"><img src="gifs/Aquatic_Caustic_Refraction___Wave_Surface_Lens_Reconfiguration.gif" width="100%"/></td>
+    <td width="25%"><img src="gifs/Barkhausen_Domain_Wall_Migration___Magnetic_Hysteresis_Reveal.gif" width="100%"/></td>
+  </tr>
+  <tr>
+    <td width="25%"><img src="gifs/Blister_Pack_Delamination___Pocket_Collapse.gif" width="100%"/></td>
+    <td width="25%"><img src="gifs/Capillary_Ink_Draw_Up_Transition.gif" width="100%"/></td>
+    <td width="25%"><img src="gifs/Botanical_Grafting___Scion_Budding.gif" width="100%"/></td>
+    <td width="25%"><img src="gifs/Cytokinetic_Purse_String_Ingression___Actomyosin_Tension_Remodeling.gif" width="100%"/></td>
+  </tr>
+</table>
 
 ## Examples of Single-Image Transformations
 
-![Anthropometric Body Print](gifs/Anthropometric_Body_Print.gif)
-![Chromatographic Capillary Separation](gifs/Chromatographic_Capillary_Separation.gif)
-![Cloisonné — Compartmental Enameling](gifs/Cloisonn____Compartmental_Enameling.gif)
-![Cubist Simultaneous View Reassembly](gifs/Cubist_Simultaneous_View_Reassembly.gif)
-![Comparative Transformation Atlas](gifs/Comparative_Transformation_Atlas.gif)
+<table cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td width="20%"><img src="gifs/Anthropometric_Body_Print.gif" width="100%"/></td>
+    <td width="20%"><img src="gifs/Chromatographic_Capillary_Separation.gif" width="100%"/></td>
+    <td width="20%"><img src="gifs/Cloisonn____Compartmental_Enameling.gif" width="100%"/></td>
+    <td width="20%"><img src="gifs/Cubist_Simultaneous_View_Reassembly.gif" width="100%"/></td>
+    <td width="20%"><img src="gifs/Comparative_Transformation_Atlas.gif" width="100%"/></td>
+  </tr>
+</table>
 
 # File Structure
 
@@ -56,9 +63,9 @@ The dataset was created using an agentic AI pipeline based on several large lang
 Python scripts for all approximately 2,000 transformations are available in:
 
 ```text
-[Code_image2image_transformations.zip]()
-[Code_single_image_transformations.zip]()
-```
+Code_image2image_transformations.zip
+Code_single_image_transformations.zip
+``` 
 
 The dataset-generation pipeline is available in:
 
@@ -69,34 +76,17 @@ dataset_generation_code.zip
 
 ## Image Transformation Sequences
 
-Sequences of images generated by each transformation are available in files whose names begin with:
-
-```text
-transformation_sequence
-```
+Sequences of images generated by each transformation are available in files whose names begin with **transformation_sequence**
 
 Each file contains an sequence of images of every transformation in the dataset applied to a random image or pair of images.
 
-## Image Transformation Animation GIFs
+## Image Transformation As Animated GIFs
 
-Files whose names begin with:
-
-```text
-GIF
-```
-
-contain examples of each transformation as animated GIFs.
+Files whose names begin with **GIF** contain examples of each transformation as animated GIFs.
 
 ## PBR Material Transformation Sequences
 
-Files whose names begin with:
-
-```text
-PBR
-```
-
-contain examples of the transformations applied to PBR materials (As sequence of PBRs)
-
+Files whose names begin with **PBR** contain examples of the transformations applied to PBR materials (As sequence of PBRs)
 
 
 # Code Structure
@@ -124,11 +114,11 @@ transform(start_map, end_map, params=None, numsteps=None)
 
 #### `start_map`
 
-The starting image or map as a NumPy array, typically using the `uint8` data type.
+The starting image or map as a NumPy array.
 
 #### `end_map`
 
-The target image or map as a NumPy array, typically using the `uint8` data type.
+The target image or map as a NumPy array.
 
 #### `params`
 
