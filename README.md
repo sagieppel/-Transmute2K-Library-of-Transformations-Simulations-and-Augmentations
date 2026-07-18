@@ -1,11 +1,4 @@
----
-license: cc0-1.0
-tags:
-- image-retreival
-- materials-retreival
-size_categories:
-- 1K<n<10K
----
+
 #  **Transmute2K**: Library of Image Transformations Simulations and Augmentations,  based  2K methods, models and simulation from science, art and math.
 
 **Transmute2K** is a large-scale library and dataset containing 2,000 image transformation methods based on techniques, simulations and models from various fields of science, math and art that have been adapted for image manipulation and image-processing.
@@ -26,6 +19,8 @@ The input can be a standard RGB image or another type of map, such as a PBR mate
 The transformations were collected from a wide range of fields. Some use standard image-augmentation or image-modification functions, while others adapt models and simulations from different scientific and artistic domains and apply them to images.
 
 The dataset was created/collected using an agentic AI pipeline based on several large language models, (GLM, KIMI) with human manual inspection and filtering of the results. 
+
+# Download Dataset From: [HuggingFace](https://huggingface.co/datasets/FlyingFrog/Transmute2K-Library-of-Image-Transformations-Simulations-and-Augmentations/tree/main)   or [Zenodo](https://zenodo.org/records/21420242)
 
 ## Examples of Image-to-Image Transformations
 
