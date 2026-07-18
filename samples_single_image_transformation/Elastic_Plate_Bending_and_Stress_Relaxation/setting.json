@@ -1,0 +1,8 @@
+{
+    "gradual": false,
+    "raw": [
+        "accept",
+        "not gradual"
+    ],
+    "notes": "manualy recommended settings for images 256-512"
+}

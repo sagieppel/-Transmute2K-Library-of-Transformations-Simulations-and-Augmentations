@@ -1,0 +1,9 @@
+{
+    "rank": "strong",
+    "gradual": true,
+    "raw": [
+        "accept",
+        "strong"
+    ],
+    "notes": "manualy recommended settings for images 256-512"
+}
