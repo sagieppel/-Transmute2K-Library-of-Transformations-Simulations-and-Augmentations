@@ -160,3 +160,5 @@ Each image in the output list represents one stage of the transformation.
 # Running transformation
 
 See [run_single_im_transform.py](run_single_im_transform.py) `__main__` for examples of running transformations on images or PBRs.
+
+## The PipeLine used for the dataset generation is available at this [repo](https://github.com/sagieppel/PipeLine-for-collecting-and-generating-image-transformations-based-on-models-and-simulations)
