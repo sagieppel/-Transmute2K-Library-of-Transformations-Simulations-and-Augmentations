@@ -30,13 +30,14 @@ The dataset was created/collected using an agentic AI pipeline based on several 
     <td width="25%"><img src="gifs/Animated_Underpainting___Pentimento_Emergence.gif" width="100%"/></td>
     <td width="25%"><img src="gifs/Aquatic_Caustic_Refraction___Wave_Surface_Lens_Reconfiguration.gif" width="100%"/></td>
     <td width="25%"><img src="gifs/Barkhausen_Domain_Wall_Migration___Magnetic_Hysteresis_Reveal.gif" width="100%"/></td>
-    <td width="25%"><img src="gifs/Fluid_Instability_and_Vortex_Entrainment.gif" width="100%"/></td>
+
 
   </tr>
   <tr>
     <td width="25%"><img src="gifs/Blister_Pack_Delamination___Pocket_Collapse.gif" width="100%"/></td>
     <td width="25%"><img src="gifs/Capillary_Ink_Draw_Up_Transition.gif" width="100%"/></td>
     <td width="25%"><img src="gifs/Botanical_Grafting___Scion_Budding.gif" width="100%"/></td>
+    <td width="25%"><img src="gifs/Fluid_Instability_and_Vortex_Entrainment.gif" width="100%"/></td>
    
   </tr>
 </table>
