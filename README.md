@@ -35,7 +35,7 @@ The dataset was created/collected using an agentic AI pipeline based on several 
     <td width="25%"><img src="gifs/Blister_Pack_Delamination___Pocket_Collapse.gif" width="100%"/></td>
     <td width="25%"><img src="gifs/Capillary_Ink_Draw_Up_Transition.gif" width="100%"/></td>
     <td width="25%"><img src="gifs/Botanical_Grafting___Scion_Budding.gif" width="100%"/></td>
-    <td width="25%"><img src="gifs/Cytokinetic_Purse_String_Ingression___Actomyosin_Tension_Remodeling.gif" width="100%"/></td>
+   
   </tr>
 </table>
 
