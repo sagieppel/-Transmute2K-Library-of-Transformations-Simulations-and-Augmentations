@@ -5,7 +5,7 @@
 
 In general, the transformations can be applied to standard **RGB images**, as well as to images or maps of other types, such as **PBR materials** and hyperspectral maps.
 
-Each transformation follows a model or function. This can range from simple operations such as rotation and blurring to more complex physical and scientific models involving diffusion, clustering, topology,camera effect, optica, physical and chemical proccess and other forms of simulation, with the image used as the working medium on which the transformation operates on.
+Each transformation follows a model or function. This can range from simple operations such as rotation and blurring to more complex physical and scientific models involving diffusion, clustering, topology,camera effect, optical, physical and chemical proccess and other forms of simulation, with the image used as the working medium on which the transformation operates on.
 
 The transformations are divided into two groups:
 
@@ -16,7 +16,7 @@ Each transformation function receives either one image or a pair of images and o
 
 The input can be a standard RGB image or another type of map, such as a PBR material map or a spectral map.
 
-The transformations were collected from a wide range of fields. Some use standard image-augmentation or image-modification functions, while others adapt models and simulations from different scientific and artistic domains and apply them to images.
+The transformations were collected from a wide range of fields. Some use standard image-augmentation or image-modification functions, while others adapt models and simulations from different scientific and artistic domains and apply them to images. In addition some few creative transformation are added (see creative folder) based on novel concepts (or combination o concepts). 
 
 The dataset was created/collected using an agentic AI pipeline based on several large language models, (GLM, KIMI) with human manual inspection and filtering of the results. 
 
