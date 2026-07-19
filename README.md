@@ -16,7 +16,7 @@ Each transformation function receives either one image or a pair of images and o
 
 The input can be a standard RGB image or another type of map, such as a PBR material map or a spectral map.
 
-The transformations were collected from a wide range of fields. Some use standard image-augmentation or image-modification functions, while others adapt models and simulations from different scientific and artistic domains and apply them to images in a creative way.
+The transformations were collected from a wide range of fields. Some use standard image-augmentation or image-modification functions, while others adapt models and simulations from different scientific and artistic domains and apply them to images.
 
 The dataset was created/collected using an agentic AI pipeline based on several large language models, (GLM, KIMI) with human manual inspection and filtering of the results. 
 
