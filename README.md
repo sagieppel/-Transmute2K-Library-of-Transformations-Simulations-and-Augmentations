@@ -16,7 +16,7 @@ Each transformation function receives either one image or a pair of images and o
 
 The input can be a standard RGB image or another type of map, such as a PBR material map or a spectral map.
 
-The transformations were collected from a wide range of fields. Some use standard image-augmentation or image-modification functions, while others adapt models and simulations from different scientific and artistic domains and apply them to images. In addition some few creative transformation are added (see creative folder) based on novel concepts (or combination o concepts). 
+The transformations were collected from a wide range of fields. Some use standard image-augmentation or image-modification functions, while others adapt models and simulations from different scientific and artistic domains and apply them to images. In addition few creative transformation are added (see creative folder) based on novel concepts (or combination of existing concepts). 
 
 The dataset was created/collected using an agentic AI pipeline based on several large language models, (GLM, KIMI) with human manual inspection and filtering of the results. 
 
@@ -30,6 +30,8 @@ The dataset was created/collected using an agentic AI pipeline based on several 
     <td width="25%"><img src="gifs/Animated_Underpainting___Pentimento_Emergence.gif" width="100%"/></td>
     <td width="25%"><img src="gifs/Aquatic_Caustic_Refraction___Wave_Surface_Lens_Reconfiguration.gif" width="100%"/></td>
     <td width="25%"><img src="gifs/Barkhausen_Domain_Wall_Migration___Magnetic_Hysteresis_Reveal.gif" width="100%"/></td>
+    <td width="25%"><img src="gifs/Fluid_Instability_and_Vortex_Entrainment.gif" width="100%"/></td>
+
   </tr>
   <tr>
     <td width="25%"><img src="gifs/Blister_Pack_Delamination___Pocket_Collapse.gif" width="100%"/></td>
