@@ -165,3 +165,17 @@ Each image in the output list represents one stage of the transformation.
 See [run_single_im_transform.py](run_single_im_transform.py) `__main__` for examples of running transformations on images or PBRs.
 
 ## The PipeLine used for the dataset generation is available at this [repo](https://github.com/sagieppel/PipeLine-for-collecting-and-generating-image-transformations-based-on-models-and-simulations)
+
+# Additional Data
+
+For each transformation, we provide several pieces of additional information:
+
+- **Gradual flag** (`gradual = True/False` in `Setting.json`): Indicates whether the transformation is progressive and gradual. In a gradual transformation, step 1 is always more similar to step 2 than to step 3. This flag is `True` for almost all transformations.
+
+- **Step count**: If the default number of steps does not produce a complete transformation, a manually selected number of steps is offered. The default number of steps is sufficient for the majority of transformations (for 512×512 images).
+
+- **Related methods**: While all methods in Transmute2K are unique, most methods have related methods that share certain concepts and mechanisms. `overlapping_models.json` in `Extra_Data.zip` contains, for each method, a list of related models.
+
+- **Model fidelity**: `model_fidelity.json` in `Extra_Data.zip` contains, for each method, a measure of how closely it resembles the model or system it represents. Since the image transformations in Transmute2K aim to be relatively fast (seconds to minutes) and many of the processes they are based on are computationally heavy (e.g., fluid dynamics), most methods use some kind of shortcut or approximation that replicates the core mechanism as a toy model rather than as a detailed simulation.
+
+![](Transmute2KPIC.jpg)
